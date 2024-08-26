@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap');
+body{
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+     
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type:none ;
+    height: 65px;
+    background-color:black ;
+    color: aliceblue;
+}
+
+
+nav ul li{
+    padding: 15px;
+
+}
+#image img{
+    height: 50px;
+    width: 170px;
+    margin-right:13px;
+}
+
+#image{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:35px;
+    
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    display: flex;
+    margin:90px auto;
+    width:70%;
+    border-radius: 12px;
+    padding:12px;
+    background-image: url(aesthetic_black_aesthetic_pattern_circles_swirl_abstraction_hd_abstract.jpg);
+
+}
+.bottom{
+    background-color: rgb(69, 67, 67);
+    height: 65px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);   
+    background-image: url(black_net_4k_hd_black-2560x1440.jpg);
+}
+
+.icon{
+    margin-top:10px;
+}
+.icon i{
+    cursor: pointer;
+}
+
+#myProgBar{
+    width:50%
+}
+
+.songItem{
+    height:50px;
+    width:50vh;
+    display:flex;
+    background-color: white;
+    color:rgb(0, 0, 0);
+    margin-top:20px ;
+    margin-left:15px ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img{
+    width: 50px;
+}
+
+.timestamp{
+    margin:0 23px;
+}
+
+.Playlist i{
+    margin-right:15px;
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+.banner-box{
+    margin-top:2vh;
+    margin-left: 13vh;
+    height:390px;
+    width: 350px;
+    background-color: rgb(133, 129, 129);
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#photo img{
+    height: 330px;
+    width: 350px;
+    
+    
+
+}
+#seek{
+    width: 35vh;
+    margin-left: 6.5vh;
+    margin-top: 2.5vh;
+}
+#photo{
+    height: 330px;
+    width: 350px;
+    object-fit:contain;
+    background-repeat: no-repeat;
+
+}
+#title1{
+    font-family: 'Ubuntu', sans-serif;
+}
